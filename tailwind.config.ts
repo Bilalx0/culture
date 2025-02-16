@@ -15,6 +15,12 @@ export default {
       fontFamily: {
         nastaliq: ['Alsmt', 'serif'],
       },
+      perspective: {
+        1000: '1000px',
+      },
+      transformStyle: {
+        'preserve-3d': 'preserve-3d',
+      },
     },
   },
   plugins: [],
