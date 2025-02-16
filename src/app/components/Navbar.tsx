@@ -13,8 +13,8 @@ function Navbar() {
                 <span></span>
             </li>
             <li className='flex justify-between items-center gap-24 text-xl text-orange-50'>
-                <span>سنڌ</span>
                 <span>پنجاب</span>
+                <span>سنڌ</span>
             </li>
         </ul>
       </nav>
