@@ -3,19 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #ece5db;
+  --foreground: #f0ebeb;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@font-face {
+  font-family: 'Alsmt';
+  src: url('/fonts/Arbaeen.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
 }
